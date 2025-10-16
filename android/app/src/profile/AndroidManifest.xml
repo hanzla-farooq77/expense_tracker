@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.your_app_name">
+
+    <!-- Internet permission (already present) -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- Storage permission for accessing gallery -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <!-- Camera permission if you want to take photos -->
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:label="your_app_name"
+        android:icon="@mipmap/ic_launcher">
+        <!-- Your activity declarations -->
+    </application>
+</manifest>
